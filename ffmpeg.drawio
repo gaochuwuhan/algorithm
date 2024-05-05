@@ -1,9 +1,373 @@
-<mxfile host="app.diagrams.net" modified="2024-05-05T09:36:06.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.5" etag="ik4qgsVw3W-xoZbgyok7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-05T13:24:58.167Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="oOvkhT7qf123yqWHC8G0" version="24.2.5" type="github">
   <diagram name="第 1 页" id="0xXtAVuOOvrXYQEo_7SS">
-    <mxGraphModel>
+    <mxGraphModel dx="1122" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fu7OPI86f3FAuO2Fij10-77" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;textShadow=0;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="795" width="340" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-1" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;avformat_open_input()&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="250" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-2" value="媒体文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="70" y="132.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-2" target="fu7OPI86f3FAuO2Fij10-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="270" as="sourcePoint" />
+            <mxPoint x="240" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-4" value="&lt;pre style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#000033&quot; style=&quot;&quot; face=&quot;Verdana&quot;&gt;C.avformat_open_input&lt;br&gt;(&amp;amp;formatCtx, C.CString(file), nil, nil)&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-1" target="fu7OPI86f3FAuO2Fij10-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="580" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-7" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;avformat_find_stream_info()&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-7" target="fu7OPI86f3FAuO2Fij10-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579.5" y="300" as="sourcePoint" />
+            <mxPoint x="579.5" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-9" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;av_find_best_stream()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="371.25" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-1" target="fu7OPI86f3FAuO2Fij10-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="155" as="sourcePoint" />
+            <mxPoint x="770" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-11" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;*&lt;span style=&quot;color:#afbf7e;&quot;&gt;C&lt;/span&gt;.AVFormatContext&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="790" y="130" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-11" target="fu7OPI86f3FAuO2Fij10-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="290" as="sourcePoint" />
+            <mxPoint x="910" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-14" target="fu7OPI86f3FAuO2Fij10-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-14" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: initial; white-space: normal;&quot;&gt;videoStreamIndex =&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: initial; white-space: normal;&quot;&gt;C.av_find_best_stream(&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: initial; white-space: normal;&quot;&gt;formatCtx,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: initial; white-space: normal;&quot;&gt;C.AVMEDIA_TYPE_VIDEO, -1, -1,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; background-color: initial; white-space: normal;&quot;&gt;&amp;nbsp;&amp;amp;codec, 0)&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="120" y="336.25" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-15" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;查找媒体文件是否有流数据，有则返回0，否则-1&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="730" y="200" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-18" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;*&lt;span style=&quot;color:#afbf7e;&quot;&gt;C&lt;/span&gt;.int videoStreamIndex&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="840" y="368.75" width="200" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-9" target="fu7OPI86f3FAuO2Fij10-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="589.5" y="310" as="sourcePoint" />
+            <mxPoint x="589.5" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-20" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;查找想处理流&lt;br/&gt;在整个流的索引&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="730" y="321.25" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-20" target="fu7OPI86f3FAuO2Fij10-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574.47" y="410" as="sourcePoint" />
+            <mxPoint x="574.47" y="491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-23" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;avcodec_alloc_context3()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="490" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-24" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;text-align: justify; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;codec *C.AVCodec&lt;/pre&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;text-align: justify; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;codecCtx *C.AVCodecContext&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; white-space: normal;&quot;&gt;codecCtx =&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; white-space: normal;&quot;&gt;C&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space: normal;&quot;&gt;.avcodec_alloc_context3&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space: normal;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space: normal;&quot;&gt;codec&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space: normal;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;div style=&quot;text-align: center; font-size: 13.0667px;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="445" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-24" target="fu7OPI86f3FAuO2Fij10-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.5" y="504.47" as="sourcePoint" />
+            <mxPoint x="442.5" y="504.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-27" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;初始化一个&lt;br&gt;编解码器codec&lt;br/&gt;和编解码器&lt;br/&gt;上下文&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-29" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;*&lt;span style=&quot;color:#afbf7e;&quot;&gt;C&lt;/span&gt;.AVCodecContext&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="850" y="490" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.038;entryY=0.441;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-23" target="fu7OPI86f3FAuO2Fij10-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="520" as="sourcePoint" />
+            <mxPoint x="839.5" y="508.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-31" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;创建编解码器&lt;br/&gt;上下文&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="729.5" y="445" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-11" target="fu7OPI86f3FAuO2Fij10-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="130" as="sourcePoint" />
+            <mxPoint x="1190" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1095" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-18" target="fu7OPI86f3FAuO2Fij10-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="346.25" as="sourcePoint" />
+            <mxPoint x="1210" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1100" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-34" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;streamPtr *C.struct_AVStream&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="250" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-37" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-indent: 0px; widows: 2; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 9.8pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot; face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;通过对&lt;/font&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;AVFormatContext.streams&lt;br&gt;数组查找即可找到对应索引的stream数据&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="321.25" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-23" target="fu7OPI86f3FAuO2Fij10-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="550" as="sourcePoint" />
+            <mxPoint x="570" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-39" target="fu7OPI86f3FAuO2Fij10-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-39" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;avcodec_parameters_to_context()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="605" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-42" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;text-align: justify; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;&lt;pre style=&quot;text-align: left; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;ret := C.avcodec_parameters&lt;br&gt;_to_context(&lt;br&gt;codecCtx, streamPtr.codecpar)&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="580" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="630" as="sourcePoint" />
+            <mxPoint x="443" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-44" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-indent: 0px; widows: 2; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;将该流解码器&lt;br/&gt;的参数复制到&lt;br/&gt;解码器上下文中&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="565" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-47" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="619.44" as="sourcePoint" />
+            <mxPoint x="790" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-49" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#666666;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-50" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;ret==0?&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="595" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="619.8800000000001" as="sourcePoint" />
+            <mxPoint x="980" y="619.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-52" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;close&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6F0000;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#a20025;" vertex="1" parent="1">
+          <mxGeometry x="980" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-53" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;false&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="890" y="570" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="573.47" y="660" as="sourcePoint" />
+            <mxPoint x="572" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-56" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;avcodec_open2()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="690" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-58" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;ret:=C&lt;/span&gt;.avcodec_open2&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;(&lt;br/&gt;&lt;/span&gt;codecCtx&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;, &lt;/span&gt;codec&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;, nil&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="680" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-59" value="&lt;h1&gt;ffmpeg 6.0 SDK together with CGO&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#cdeb8b;fontFamily=Helvetica;fontSize=12;rounded=1;shadow=1;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-70" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-60" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="705" y="709.44" as="sourcePoint" />
+            <mxPoint x="785" y="709" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-61" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#666666;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="785" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-62" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;ret==0?&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="795" y="685" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="895" y="709.8800000000001" as="sourcePoint" />
+            <mxPoint x="975" y="709.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-64" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;close&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6F0000;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#a20025;" vertex="1" parent="1">
+          <mxGeometry x="975" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-65" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;false&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="885" y="660" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-58" target="fu7OPI86f3FAuO2Fij10-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317" y="704.41" as="sourcePoint" />
+            <mxPoint x="450" y="704.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-67" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-indent: 0px; widows: 2; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;打开编解码器&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="670" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="572.97" y="730" as="sourcePoint" />
+            <mxPoint x="572" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-69" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; white-space: normal;&quot;&gt;av_read_frame&lt;/span&gt;()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="820" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-72" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-73" target="fu7OPI86f3FAuO2Fij10-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="332.5" y="880" as="sourcePoint" />
+            <mxPoint x="472.5" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="920" />
+              <mxPoint x="410" y="920" />
+              <mxPoint x="573" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-73" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;for C.av_read_frame(&lt;br/&gt;formatCtx, packet) &amp;gt;= 0&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="780" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-74" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;#ff8000&quot; style=&quot;font-size: 16px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;LOOP&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251); font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="875" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-75" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;pre style=&quot;font-family: Menlo-Regular, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;读取媒体文件中的下一个音视频数据包，&lt;br&gt;并将其存储到&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt; packet &lt;/span&gt;中，当函数返&lt;br&gt;回值小于&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt; 0 &lt;/span&gt;时，表示已经读取到文件末&lt;br/&gt;尾或者发生了错误&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="910" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-78" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="837.4100000000001" as="sourcePoint" />
+            <mxPoint x="800" y="836.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-80" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="800" y="797.5" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-79" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;packet.stream_index &lt;br&gt;== &lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;videoStreamIndex&lt;/font&gt;&lt;/span&gt; ?&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="830" y="802.5" width="160" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-80" target="fu7OPI86f3FAuO2Fij10-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="930.56" as="sourcePoint" />
+            <mxPoint x="903" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-82" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;true&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="930" y="895" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-83" target="fu7OPI86f3FAuO2Fij10-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-83" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; white-space: normal;&quot;&gt;avcodec_send_packet&lt;/span&gt;()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="782.5" y="990" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-84" target="fu7OPI86f3FAuO2Fij10-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-84" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-align: left; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;ret = avcodec_send_packet(&lt;br/&gt;codecCtx, packet)&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="630" y="895" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-87" target="fu7OPI86f3FAuO2Fij10-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="914.9473684210527" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-87" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="875" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-88" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;ret==0?&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="885" y="1085" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-92" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;true.  成功送入解码器后获取解码后的frame数据&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1140" width="330" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-93" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: Menlo-Regular, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;将原始压缩数据包（&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;packet&lt;/span&gt;）送入解码器&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="950" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-94" target="fu7OPI86f3FAuO2Fij10-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-94" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;avcodec_receive_frame&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="782.5" y="1220" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-96" target="fu7OPI86f3FAuO2Fij10-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-96" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-align: left; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;var frame *C.struct_AVFrame&lt;br/&gt;&lt;/span&gt;&lt;/font&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;frame = C.av_frame_alloc()&lt;br/&gt;&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;ret = C.avcodec_receive_frame(&lt;br&gt;hcodecCtx, frame)&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1065" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-99" target="fu7OPI86f3FAuO2Fij10-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-101" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="875" y="1320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-99" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="fu7OPI86f3FAuO2Fij10-101">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-100" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;ret==0?&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="fu7OPI86f3FAuO2Fij10-101">
+          <mxGeometry x="15" y="10" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-103" value="&lt;pre style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(251, 251, 251); font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#000033&quot; face=&quot;Verdana&quot; style=&quot;forced-color-adjust: none;&quot;&gt;true&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1390" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-104" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#666666;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="837.5" y="1460" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-107" value="&lt;pre style=&quot;forced-color-adjust: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000033&quot;&gt;frame process&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1470" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-109" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fu7OPI86f3FAuO2Fij10-77" target="fu7OPI86f3FAuO2Fij10-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579.4100000000001" y="921.5" as="sourcePoint" />
+            <mxPoint x="580" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-110" value="&lt;pre style=&quot;forced-color-adjust: none; orphans: 2; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;#ff8000&quot; style=&quot;font-size: 16px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;LOOP Done&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251); font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1080" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-112" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#e6e6e6&quot;&gt;C.av_packet_free(&amp;amp;packet)&lt;br&gt;C.av_frame_free(&amp;amp;frame)&lt;br&gt;C.avcodec_free_context(&amp;amp;codecCtx)&lt;br&gt;C.avformat_close_input(&amp;amp;formatCtx)&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6F0000;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1660" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fu7OPI86f3FAuO2Fij10-113" value="&lt;pre style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(251, 251, 251); font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#000033&quot; face=&quot;Verdana&quot; style=&quot;forced-color-adjust: none;&quot;&gt;释放资源&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1590" width="60" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
