@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.wenjun.codeepiphany.challenge.settings">
+    <option name="challenges">
+      <map>
+        <entry key="$PROJECT_DIR$/leetcode_coding/PalindromeNumber.go">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="1966826125405589504" />
+              <option name="challengeLanguageId" value="1966826125426561024" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="true" />
+                  <option name="input" value="121" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="false" />
+                  <option name="input" value="-121" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="false" />
+                  <option name="input" value="10" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="go" />
+              <option name="solutionId" value="1966826125430755328" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="true" />
+                  <option name="input" value="121" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="false" />
+                  <option name="input" value="-121" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="false" />
+                  <option name="input" value="10" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode_coding/RomanToInteger.go">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="1966833432390668288" />
+              <option name="challengeLanguageId" value="1966833432428417024" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="3" />
+                  <option name="input" value="&quot;III&quot;" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="58" />
+                  <option name="input" value="&quot;LVIII&quot;" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="1994" />
+                  <option name="input" value="&quot;MCMXCIV&quot;" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="go" />
+              <option name="solutionId" value="1966833432432611328" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="3" />
+                  <option name="input" value="&quot;III&quot;" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="58" />
+                  <option name="input" value="&quot;LVIII&quot;" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="1994" />
+                  <option name="input" value="&quot;MCMXCIV&quot;" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode_coding/TwoSum.go">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="1966818661314465792" />
+              <option name="challengeLanguageId" value="1966818661444489216" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[0,1]" />
+                  <option name="input" value="[2,7,11,15]&#10;9" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[1,2]" />
+                  <option name="input" value="[3,2,4]&#10;6" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[0,1]" />
+                  <option name="input" value="[3,3]&#10;6" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="go" />
+              <option name="solutionId" value="1966818661465460736" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[0,1]" />
+                  <option name="input" value="[2,7,11,15]&#10;9" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[1,2]" />
+                  <option name="input" value="[3,2,4]&#10;6" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[0,1]" />
+                  <option name="input" value="[3,3]&#10;6" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

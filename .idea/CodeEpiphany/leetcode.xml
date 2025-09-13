@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.wenjun.codeepiphany.leetcode.settings">
+    <option name="languageSettings">
+      <list>
+        <LanguageSettingsState sourceFolder="\\wsl.localhost\Ubuntu-20.04\home\bai\dev\github\algorithm\leetcode_coding" language="go" languageVersion="" fileNameTemplate="${velocity.camelCaseName(${challenge.slug})}" codeTemplate="$challenge.code" />
+      </list>
+    </option>
+  </component>
+</project>

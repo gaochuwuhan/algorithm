@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.wenjun.codeepiphany.leetcodecn.settings">
+    <option name="languageSettings">
+      <list>
+        <LanguageSettingsState sourceFolder="\\wsl.localhost\Ubuntu-20.04\home\bai\dev\github\algorithm\leetcode_coding" language="python" languageVersion="3" fileNameTemplate="${velocity.camelCaseName(${challenge.slug})}" codeTemplate="$challenge.code" />
+        <LanguageSettingsState sourceFolder="\\wsl.localhost\Ubuntu-20.04\home\bai\dev\github\algorithm\leetcode_coding" language="go" languageVersion="" fileNameTemplate="${velocity.camelCaseName(${challenge.slug})}" codeTemplate="$challenge.code" />
+      </list>
+    </option>
+    <option name="queryCriteria">
+      <map>
+        <entry key="LeetCodeChallengesView-lastUI" value="QueryParameters" />
+        <entry key="LeetCodeParametersQueryPresenter-criteria" value="{&quot;selectedCategory&quot;:{&quot;title&quot;:&quot;Algorithms&quot;,&quot;url&quot;:&quot;/problemset/algorithms/&quot;,&quot;slug&quot;:&quot;algorithms&quot;},&quot;selectedFavorite&quot;:null,&quot;selectedDifficulty&quot;:null,&quot;selectedStatus&quot;:null,&quot;tags&quot;:[],&quot;orderBy&quot;:null}" />
+        <entry key="LeetCodeParametersQueryPresenter-pageSize" value="20" />
+      </map>
+    </option>
+  </component>
+</project>
