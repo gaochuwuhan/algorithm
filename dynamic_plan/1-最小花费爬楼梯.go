@@ -83,12 +83,6 @@ i
 总花费为 6 。
 */
 
-package main
-
-import (
-"fmt"
-)
-
 /**
  * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
  *
@@ -96,10 +90,9 @@ import (
  * @param cost int整型一维数组
  * @return int整型
  */
-func minCostClimbingStairs( cost []int ) int {
+func minCostClimbingStairs(cost []int) int {
 	// write code here
 	// 递推公式
-
 
 	// n=len(cost)-1
 	// dp[0]=0
@@ -107,18 +100,18 @@ func minCostClimbingStairs( cost []int ) int {
 	// dp[2]=dp[0]+cost[n-1] / dp[1]
 	//dp[3] = dp[2]+cost[2] / dp[1] + cost[3]
 
-	sets:=make([]int,len(cost)+1,len(cost)+1)// 并非走到数组最后索引是楼顶，还得加1，就是求sets[len(cost)]对应的值 花费
-	sets[0] = 0 //走到第0和1索引的台阶不需要花费
+	sets := make([]int, len(cost)+1, len(cost)+1) // 并非走到数组最后索引是楼顶，还得加1，就是求sets[len(cost)]对应的值 花费
+	sets[0] = 0                                   //走到第0和1索引的台阶不需要花费
 	sets[1] = 0
-	for i:=2;i<=len(cost);i++{
-		sets[i] = min(sets[i-1]+cost[i-1],sets[i-2]+cost[i-2]) //两种走法，看上一个楼梯总数的花费的两钟走法哪个小就行
+	for i := 2; i <= len(cost); i++ {
+		sets[i] = min(sets[i-1]+cost[i-1], sets[i-2]+cost[i-2]) //两种走法，看上一个楼梯总数的花费的两钟走法哪个小就行
 	}
 	return sets[len(cost)]
 
 }
 
-func min(x,y int) int{
-	if x>=y{
+func min(x, y int) int {
+	if x >= y {
 		return y
 	}
 

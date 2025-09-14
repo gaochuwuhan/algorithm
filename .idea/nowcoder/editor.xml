@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="NowcoderEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/NC103solve.go">
+          <value>
+            <NowcoderEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/doc/content/NC103solve.md" />
+              <option name="host" value="www.nowcoder.com" />
+              <option name="path" value="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/NC103solve.go" />
+              <option name="questionNo" value="NC103" />
+              <option name="questionUUid" value="c3a6afee325e472386a1c4eb1ef987f3" />
+              <option name="titleSlug" value="NC103solve" />
+            </NowcoderEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/NC65Fibonacci.go">
+          <value>
+            <NowcoderEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/doc/content/NC65Fibonacci.md" />
+              <option name="host" value="www.nowcoder.com" />
+              <option name="path" value="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/NC65Fibonacci.go" />
+              <option name="questionNo" value="NC65" />
+              <option name="questionUUid" value="c6c7742f5ba7442aada113136ddea0c3" />
+              <option name="titleSlug" value="NC65Fibonacci" />
+            </NowcoderEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
