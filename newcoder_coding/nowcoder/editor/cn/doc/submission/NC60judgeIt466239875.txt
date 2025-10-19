@@ -1,0 +1,94 @@
+package main
+//import "fmt"
+import . "nc_tools"
+/*
+ * type TreeNode struct {
+ *   Val int
+ *   Left *TreeNode
+ *   Right *TreeNode
+ * }
+ */
+//type TreeNode struct {
+// Val int
+// Left *TreeNode
+// Right *TreeNode
+// }
+/**
+ * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+ *
+ * 
+ * @param root TreeNode类 the root
+ * @return bool布尔型一维数组
+*/
+
+
+func dequeue(queue *[]*TreeNode) *TreeNode{
+    data:=(*queue)[0]
+    *queue = (*queue)[1:len(*queue)]
+    return data
+}
+
+func enqueue(data *TreeNode,queue *[]*TreeNode){
+    *queue = append(*queue,data)
+}
+
+func isCompTree(tree *TreeNode) bool{
+    if tree == nil{
+        return true
+    }
+    lackR:=0
+    queue:=make([]*TreeNode,0)
+    enqueue(tree,&queue)
+    for len(queue) >0{
+        if lackR>1{
+            return false
+        }
+        curTree:=dequeue(&queue)
+        if curTree.Left == nil&& curTree.Right!=nil{
+            return false
+        }
+        if curTree.Left != nil && curTree.Right==nil{
+            lackR++
+        }
+        if curTree.Left!=nil{
+            enqueue(curTree.Left,&queue)
+        }
+        if curTree.Right != nil{
+            enqueue(curTree.Right,&queue)
+        }
+    }
+
+    return true
+
+}
+
+func isSearchTree(tree *TreeNode,prev *int,ok *bool){
+    if !*ok{
+        return
+    }
+    if tree == nil{
+        return
+    }
+    if tree.Val<=*prev{
+        *ok=false
+        return
+    }
+    isSearchTree(tree.Left,prev,ok)
+    *prev=tree.Val
+    isSearchTree(tree.Right,prev,ok)
+}
+
+func judgeIt( root *TreeNode ) []bool {
+    // write code here
+    if root == nil{
+        return []bool{true,true}
+    }
+    comFlag:=isCompTree(root)
+    prev:=-1
+    searchFlag:=true
+    isSearchTree(root,&prev,&searchFlag)
+    return []bool{searchFlag,comFlag}
+}
+
+//rightHundredRate:80.0%
+//error:答案错误

@@ -10,7 +10,7 @@
     <option name="queryCriteria">
       <map>
         <entry key="LeetCodeChallengesView-lastUI" value="QueryParameters" />
-        <entry key="LeetCodeParametersQueryPresenter-criteria" value="{&quot;selectedCategory&quot;:{&quot;title&quot;:&quot;Algorithms&quot;,&quot;url&quot;:&quot;/problemset/algorithms/&quot;,&quot;slug&quot;:&quot;algorithms&quot;},&quot;selectedFavorite&quot;:null,&quot;selectedDifficulty&quot;:&quot;medium&quot;,&quot;selectedStatus&quot;:null,&quot;tags&quot;:[],&quot;orderBy&quot;:null}" />
+        <entry key="LeetCodeParametersQueryPresenter-criteria" value="{&quot;selectedCategory&quot;:{&quot;title&quot;:&quot;Algorithms&quot;,&quot;url&quot;:&quot;/problemset/algorithms/&quot;,&quot;slug&quot;:&quot;algorithms&quot;},&quot;selectedFavorite&quot;:null,&quot;selectedDifficulty&quot;:null,&quot;selectedStatus&quot;:null,&quot;tags&quot;:[],&quot;orderBy&quot;:null}" />
         <entry key="LeetCodeParametersQueryPresenter-pageSize" value="100" />
       </map>
     </option>

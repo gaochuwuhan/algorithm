@@ -94,3 +94,40 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return commPrefix
 }
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+func hasPathSum(root *TreeNode, sum int) bool {
+	// write code here
+	if root == nil {
+		return false
+	}
+	curSum := 0
+	has := false
+	walk(root, &curSum, sum, &has)
+	return has
+}
+
+func walk(tree *TreeNode, curSum *int, sum int, has *bool) {
+	if *has {
+		return
+	}
+	if tree.Left == nil && tree.Right == nil {
+		if *curSum == sum {
+			*has = true
+		}
+		return
+	}
+	if *curSum+tree.Val > sum {
+		return
+	}
+	*curSum = *curSum + tree.Val
+	if tree.Left != nil {
+		walk(tree.Left, curSum, sum, has)
+	}
+	walk(tree.Right, curSum, sum, has)
+}

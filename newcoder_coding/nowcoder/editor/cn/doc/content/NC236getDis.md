@@ -1,0 +1,2 @@
+<p>  有一个长为 n 的数组 A ，求满足 0 ≤ a ≤ b &lt; n 的 A[b] - A[a] 的最大值。 </p> <p>  给定数组 A 及它的大小 n ，请返回最大差值。 </p> <div>  <br> </div> <div>  <span></span>数据范围： <img src="https://www.nowcoder.com/equation?tex=2%20%3C%20n%20%5Cle%20%202*10%5E5%5C"> ，数组中的值满足 <img src="https://www.nowcoder.com/equation?tex=0%20%5Cle%20%7Cval%7C%20%5Cle%205*10%5E8%20%5C">  </div><div><br></div><div><div>Related Topics</div><div><li>贪心</li><li>动态规划</li><li>模拟</li></div></div><br>示例:<br>输入:[5,1],2<br>输出:0
+<br>

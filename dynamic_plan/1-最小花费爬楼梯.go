@@ -117,3 +117,31 @@ func min(x, y int) int {
 
 	return x
 }
+
+func Jump(n int, A []int) int {
+
+	// write code here
+	if n == 1 {
+		return 0
+	}
+	longest := 0 //下一步最远到哪
+	end := 0
+	times := 0
+	for i := 0; i < n-1; i++ {
+		if i+A[i] > longest {
+			longest = i + A[i]
+		}
+
+		if i == end {
+			times++
+			end = longest
+		}
+		if longest > n-1 {
+			break
+		}
+
+	}
+
+	return times
+
+}

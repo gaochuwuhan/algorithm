@@ -1,0 +1,2 @@
+<div>  给定一个非负整数数组nums，假定最开始处于下标为0的位置，数组里面的每个元素代表下一跳能够跳跃的最大长度。如果能够跳到数组最后一个位置，则返回true，否则返回false。 </div> <div>  数据范围: </div> <div>  <img src="https://www.nowcoder.com/equation?tex=1%3C%3Dnums.length%3C%3D%202%5Ctimes10%5E5"><br> </div> <div>  <img alt="" src="https://www.nowcoder.com/equation?tex=0%3C%3Dnums%5Bi%5D%3C%3D10%5E5"><br> </div><div><br></div><div><div>Related Topics</div><div><li>动态规划</li></div></div><br>示例:<br>输入:[2,1,3,3,0,0,100]<br>输出:true
+<br>

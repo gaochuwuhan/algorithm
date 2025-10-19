@@ -1,0 +1,72 @@
+### 解题思路
+
+此处撰写解题思路
+
+### 代码
+
+* c
+
+```c
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+
+
+struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
+if(l2==NULL)return l1;
+if(l1==NULL)return l2;
+
+struct ListNode *p1 = l1;
+struct ListNode *p2 = l2;
+
+
+struct ListNode *l3 = (struct ListNode*)calloc(sizeof(struct ListNode),1);
+struct ListNode *last = l3;
+
+while(p1!=NULL&&p2!=NULL){
+
+    
+   if(p1==NULL || p2==NULL)break;
+
+    while(p1!=NULL && p1->val <= p2->val){
+    struct ListNode *s = (struct ListNode*)calloc(sizeof(struct ListNode),1);    
+    s -> val = p1->val;
+    s ->next = last->next;
+    last->next = s;
+    last = s;
+
+    p1 = p1->next;
+    }
+    if(p1==NULL || p2==NULL)break;
+    while(p2!=NULL&&p2->val <= p1->val){
+    struct ListNode *s = (struct ListNode*)calloc(sizeof(struct ListNode),1);    
+    s -> val = p2->val;
+    s ->next = last->next;
+    last->next = s;
+    last = s;
+    
+    p2 = p2->next;
+    }
+    
+}
+if(p1==NULL){
+    p1 = p2;
+}
+while(p1!=NULL){
+    struct ListNode *s = (struct ListNode*)calloc(sizeof(struct ListNode),1);    
+    s -> val = p1->val;
+    s ->next = last->next;
+    last->next = s;
+    last = s;
+
+    p1 = p1->next;
+}
+
+return l3->next;
+}
+```
+

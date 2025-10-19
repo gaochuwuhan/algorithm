@@ -1,0 +1,76 @@
+### 解题思路
+
+此处撰写解题思路
+首先需要同时遍历两个链表的所有元素；
+其次要分清有三种情况：1、都不为空；2、链表1不为空、链表2为空；3、链表1为空、链表2不为空；
+1的时候，要判断哪个链表的元素小；哪个链表的元素小，则哪个链表的元素进新链表，同时元素下移；大的那个链表不动；
+2的时候链表1的元素直接进新链表；
+3的时候链表2的元素直接进新链表
+
+### 代码
+
+* golang
+
+```golang
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+    var tail,head *ListNode
+    var n1,n2 int
+    for l1 !=nil || l2 !=nil{
+       // fmt.Println(n1,n2)
+        if l1 !=nil && l2 != nil{
+            n1 = l1.Val
+            n2 = l2.Val
+            if n1 <= n2 {
+            l1 = l1.Next
+            if head == nil {
+                head = &ListNode{Val:n1}
+                tail = head
+            } else {
+                tail.Next = &ListNode{Val:n1}
+                tail = tail.Next
+            }
+        }else {
+            l2 = l2.Next
+            if head == nil {
+                head = &ListNode{Val:n2}
+                tail = head
+            } else {
+                tail.Next = &ListNode{Val:n2}
+                tail = tail.Next
+            }
+        }
+        } 
+        if l1 !=nil && l2 ==nil{
+            n1 = l1.Val
+            l1 = l1.Next
+            if head == nil {
+                head = &ListNode{Val:n1}
+                tail = head
+            } else {
+                tail.Next = &ListNode{Val:n1}
+                tail = tail.Next
+            }   
+        }
+        if l1 == nil && l2 != nil {
+            n2 = l2.Val
+            l2 = l2.Next
+            if head == nil {
+                head = &ListNode{Val:n2}
+                tail = head
+            } else {
+                tail.Next = &ListNode{Val:n2}
+                tail = tail.Next
+            }
+        }
+    }
+    return head
+}
+```
+

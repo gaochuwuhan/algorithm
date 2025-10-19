@@ -100,6 +100,45 @@
             </ChallengeSettingsStateItem>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode_coding/MergeTwoSortedLists.go">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="1967613321842659328" />
+              <option name="challengeLanguageId" value="1967613321951711232" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,1,2,3,4,4]" />
+                  <option name="input" value="[1,2,4]&#10;[1,3,4]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[]&#10;[]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[0]" />
+                  <option name="input" value="[]&#10;[0]" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="go" />
+              <option name="solutionId" value="1967613321968488448" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,1,2,3,4,4]" />
+                  <option name="input" value="[1,2,4]&#10;[1,3,4]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[]&#10;[]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[0]" />
+                  <option name="input" value="[]&#10;[0]" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode_coding/PalindromeNumber.go">
           <value>
             <ChallengeSettingsStateItem>
