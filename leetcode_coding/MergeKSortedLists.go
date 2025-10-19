@@ -1,3 +1,4 @@
+
 //IMPORTANT!! Submit Code Region Begin(Do not remove this line)
 /**
  * Definition for singly-linked list.
@@ -6,7 +7,7 @@
  *     Next *ListNode
  * }
  */
-func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
+func mergeKLists(lists []*ListNode) *ListNode {
 	if list1 == nil {
 		return list2
 	}
@@ -25,25 +26,21 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 		l2curNode = l2Head.Next
 		l1curNode = l1Head
 	}
-	newCur = newListNode
+
 	for {
 		if l1curNode == nil {
-			newCur.Next = l2curNode
+			newListNode.Next = l2curNode
 			break
 		}
 		if l2curNode == nil {
-			newCur.Next = l1curNode
+			newListNode.Next = l1curNode
 			break
 		}
 		if l1curNode.Val < l2curNode.Val {
-			newCur.Next = l1curNode
-			new
+			newListNode.Next = l1curNode
 		} else {
-			newCur.Next = l2curNode
+			newListNode.Next = l2curNode
 		}
-			l1curNode=l1curNode.Next
-		l2curNode=l2curNode.Next
-		newCur=
 	}
 	return newListNode
 }

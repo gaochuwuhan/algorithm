@@ -3,206 +3,39 @@
   <component name="NowcoderEditor">
     <option name="projectConfig">
       <map>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC145knapsack.go">
+        <entry key="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/NC149kmp.go">
           <value>
             <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC145knapsack.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/doc/content/NC149kmp.md" />
               <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC145knapsack.go" />
-              <option name="questionNo" value="NC145" />
-              <option name="questionUUid" value="2820ea076d144b30806e72de5e5d4bbf" />
-              <option name="titleSlug" value="NC145knapsack" />
+              <option name="path" value="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/NC149kmp.go" />
+              <option name="questionNo" value="NC149" />
+              <option name="questionUUid" value="bb1615c381cc4237919d1aa448083bcc" />
+              <option name="titleSlug" value="NC149kmp" />
             </NowcoderEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC148Jump.go">
+        <entry key="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/NC8FindPath.go">
           <value>
             <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC148Jump.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/doc/content/NC8FindPath.md" />
               <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC148Jump.go" />
-              <option name="questionNo" value="NC148" />
-              <option name="questionUUid" value="de62bcee9f9a4881ac80cce6da42b135" />
-              <option name="titleSlug" value="NC148Jump" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC17getLongestPalindrome.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC17getLongestPalindrome.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC17getLongestPalindrome.go" />
-              <option name="questionNo" value="NC17" />
-              <option name="questionUUid" value="b4525d1d84934cf280439aeecc36f4af" />
-              <option name="titleSlug" value="NC17getLongestPalindrome" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC197canJump.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC197canJump.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC197canJump.go" />
-              <option name="questionNo" value="NC197" />
-              <option name="questionUUid" value="23407eccb76447038d7c0f568370c1bd" />
-              <option name="titleSlug" value="NC197canJump" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC19FindGreatestSumOfSubArray.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC19FindGreatestSumOfSubArray.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC19FindGreatestSumOfSubArray.go" />
-              <option name="questionNo" value="NC19" />
-              <option name="questionUUid" value="459bd355da1549fa8a49e350bf3df484" />
-              <option name="titleSlug" value="NC19FindGreatestSumOfSubArray" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC236getDis.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC236getDis.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC236getDis.go" />
-              <option name="questionNo" value="NC236" />
-              <option name="questionUUid" value="a01abbdc52ba4d5f8777fb5dae91b204" />
-              <option name="titleSlug" value="NC236getDis" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC245generate.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC245generate.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC245generate.go" />
-              <option name="questionNo" value="NC245" />
-              <option name="questionUUid" value="4385fa1c390e49f69fcf77ecffee7164" />
-              <option name="titleSlug" value="NC245generate" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC246getRow.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC246getRow.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC246getRow.go" />
-              <option name="questionNo" value="NC246" />
-              <option name="questionUUid" value="486a9408fe2d4912843795c25d43acc2" />
-              <option name="titleSlug" value="NC246getRow" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC309knapsack.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC309knapsack.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC309knapsack.go" />
-              <option name="questionNo" value="NC309" />
-              <option name="questionUUid" value="3ed13831e2cc4613866edee237d5a804" />
-              <option name="titleSlug" value="NC309knapsack" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC34uniquePaths.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC34uniquePaths.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC34uniquePaths.go" />
-              <option name="questionNo" value="NC34" />
-              <option name="questionUUid" value="166eaff8439d4cd898e3ba933fbc6358" />
-              <option name="titleSlug" value="NC34uniquePaths" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC45threeOrders.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC45threeOrders.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC45threeOrders.go" />
-              <option name="questionNo" value="NC45" />
-              <option name="questionUUid" value="a9fec6c46a684ad5a3abd4e365a9d362" />
-              <option name="titleSlug" value="NC45threeOrders" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC60judgeIt.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC60judgeIt.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC60judgeIt.go" />
-              <option name="questionNo" value="NC60" />
-              <option name="questionUUid" value="f31fc6d3caf24e7f8b4deb5cd9b5fa97" />
-              <option name="titleSlug" value="NC60judgeIt" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC7maxProfit.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC7maxProfit.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC7maxProfit.go" />
-              <option name="questionNo" value="NC7" />
-              <option name="questionUUid" value="64b4262d4e6d4f6181cd45446a5821ec" />
-              <option name="titleSlug" value="NC7maxProfit" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC7maxProfit.java">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC7maxProfit.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC7maxProfit.java" />
-              <option name="questionNo" value="NC7" />
-              <option name="questionUUid" value="64b4262d4e6d4f6181cd45446a5821ec" />
-              <option name="titleSlug" value="NC7maxProfit" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC8FindPath.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC8FindPath.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC8FindPath.go" />
+              <option name="path" value="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/NC8FindPath.go" />
               <option name="questionNo" value="NC8" />
               <option name="questionUUid" value="b736e784e3e34731af99065031301bca" />
               <option name="titleSlug" value="NC8FindPath" />
             </NowcoderEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC9hasPathSum.go">
+        <entry key="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/NC9hasPathSum.go">
           <value>
             <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC9hasPathSum.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/doc/content/NC9hasPathSum.md" />
               <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC9hasPathSum.go" />
+              <option name="path" value="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/NC9hasPathSum.go" />
               <option name="questionNo" value="NC9" />
               <option name="questionUUid" value="508378c0823c423baa723ce448cbfd0c" />
               <option name="titleSlug" value="NC9hasPathSum" />
-            </NowcoderEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/doc/content/.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/.go" />
-              <option name="questionNo" value="REAIAI1" />
-              <option name="questionUUid" value="798b474486af4528b9722feacc39aafb" />
             </NowcoderEditor>
           </value>
         </entry>
@@ -218,18 +51,6 @@
             </NowcoderEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/NC1solve.go">
-          <value>
-            <NowcoderEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/doc/content/NC1solve.md" />
-              <option name="host" value="www.nowcoder.com" />
-              <option name="path" value="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/NC1solve.go" />
-              <option name="questionNo" value="NC1" />
-              <option name="questionUUid" value="11ae12e8c6fe48f883cad618c2e81475" />
-              <option name="titleSlug" value="NC1solve" />
-            </NowcoderEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/../../jetbrain-data/niuke_temp/nowcoder/editor/cn/NC65Fibonacci.go">
           <value>
             <NowcoderEditor>
@@ -239,6 +60,42 @@
               <option name="questionNo" value="NC65" />
               <option name="questionUUid" value="c6c7742f5ba7442aada113136ddea0c3" />
               <option name="titleSlug" value="NC65Fibonacci" />
+            </NowcoderEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/6n/77xlxgrx1vs23mgtyrcjt7z40000gn/T/nowcoder/editor/cn/NC10solve.go">
+          <value>
+            <NowcoderEditor>
+              <option name="contentPath" value="/var/folders/6n/77xlxgrx1vs23mgtyrcjt7z40000gn/T/nowcoder/editor/cn/doc/content/NC10solve.md" />
+              <option name="host" value="www.nowcoder.com" />
+              <option name="path" value="/var/folders/6n/77xlxgrx1vs23mgtyrcjt7z40000gn/T/nowcoder/editor/cn/NC10solve.go" />
+              <option name="questionNo" value="NC10" />
+              <option name="questionUUid" value="c4c488d4d40d4c4e9824c3650f7d5571" />
+              <option name="titleSlug" value="NC10solve" />
+            </NowcoderEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/6n/77xlxgrx1vs23mgtyrcjt7z40000gn/T/nowcoder/editor/cn/NC80Print.go">
+          <value>
+            <NowcoderEditor>
+              <option name="contentPath" value="/var/folders/6n/77xlxgrx1vs23mgtyrcjt7z40000gn/T/nowcoder/editor/cn/doc/content/NC80Print.md" />
+              <option name="host" value="www.nowcoder.com" />
+              <option name="path" value="/var/folders/6n/77xlxgrx1vs23mgtyrcjt7z40000gn/T/nowcoder/editor/cn/NC80Print.go" />
+              <option name="questionNo" value="NC80" />
+              <option name="questionUUid" value="445c44d982d04483b04a54f298796288" />
+              <option name="titleSlug" value="NC80Print" />
+            </NowcoderEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/6n/77xlxgrx1vs23mgtyrcjt7z40000gn/T/nowcoder/editor/cn/NC9hasPathSum.go">
+          <value>
+            <NowcoderEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/doc/content/NC9hasPathSum.md" />
+              <option name="host" value="www.nowcoder.com" />
+              <option name="path" value="$PROJECT_DIR$/newcoder/nowcoder/editor/cn/NC9hasPathSum.go" />
+              <option name="questionNo" value="NC9" />
+              <option name="questionUUid" value="508378c0823c423baa723ce448cbfd0c" />
+              <option name="titleSlug" value="NC9hasPathSum" />
             </NowcoderEditor>
           </value>
         </entry>

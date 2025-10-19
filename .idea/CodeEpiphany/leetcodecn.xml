@@ -3,7 +3,7 @@
   <component name="com.wenjun.codeepiphany.leetcodecn.settings">
     <option name="languageSettings">
       <list>
-        <LanguageSettingsState sourceFolder="D:\dev\github\algorithm\leetcode_coding" language="go" languageVersion="" fileNameTemplate="${velocity.camelCaseName(${challenge.slug})}" codeTemplate="$challenge.code" />
+        <LanguageSettingsState sourceFolder="$PROJECT_DIR$/leetcode_coding" language="go" languageVersion="" fileNameTemplate="${velocity.camelCaseName(${challenge.slug})}" codeTemplate="$challenge.code" />
         <LanguageSettingsState sourceFolder="D:\dev\jetbrain-data" language="python" languageVersion="3" fileNameTemplate="${velocity.camelCaseName(${challenge.slug})}" codeTemplate="$challenge.code" />
       </list>
     </option>

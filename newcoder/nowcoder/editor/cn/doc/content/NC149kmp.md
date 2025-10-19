@@ -1,0 +1,2 @@
+<div>  给你一个<span>文本串 </span>T ，一个<span>非空模板串 </span>S ，问 S 在 T 中出现了多少次<br> </div> <div>  <br> </div> <div>  数据范围：<img src="https://www.nowcoder.com/equation?tex=1%20%5Cle%20len(S)%20%5Cle%20500000%2C%0A%0A1%20%5Cle%20len(T)%20%5Cle%201000000%0A">  </div> <div>  要求：空间复杂度 <img src="https://www.nowcoder.com/equation?tex=O(len(S))">，时间复杂度 <img src="https://www.nowcoder.com/equation?tex=O(len(S)%2Blen(T))"><br> </div><div><br></div><div><div>Related Topics</div><div><li>字符串</li></div></div><br>示例:<br>输入:"ababab","abababab"<br>输出:2
+<br>
