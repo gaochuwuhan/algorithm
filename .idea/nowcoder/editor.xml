@@ -99,6 +99,42 @@
             </NowcoderEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC261jumpFloorII.go">
+          <value>
+            <NowcoderEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC261jumpFloorII.md" />
+              <option name="host" value="www.nowcoder.com" />
+              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC261jumpFloorII.go" />
+              <option name="questionNo" value="NC261" />
+              <option name="questionUUid" value="22243d016f6b47f2a6928b4313c85387" />
+              <option name="titleSlug" value="NC261jumpFloorII" />
+            </NowcoderEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC295FindGreatestSumOfSubArray.go">
+          <value>
+            <NowcoderEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC295FindGreatestSumOfSubArray.md" />
+              <option name="host" value="www.nowcoder.com" />
+              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC295FindGreatestSumOfSubArray.go" />
+              <option name="questionNo" value="NC295" />
+              <option name="questionUUid" value="650b68dfa69d492d92645aecd7da9b21" />
+              <option name="titleSlug" value="NC295FindGreatestSumOfSubArray" />
+            </NowcoderEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC296minCostClimbingStairs.go">
+          <value>
+            <NowcoderEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/doc/content/NC296minCostClimbingStairs.md" />
+              <option name="host" value="www.nowcoder.com" />
+              <option name="path" value="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC296minCostClimbingStairs.go" />
+              <option name="questionNo" value="NC296" />
+              <option name="questionUUid" value="6fe0302a058a4e4a834ee44af88435c7" />
+              <option name="titleSlug" value="NC296minCostClimbingStairs" />
+            </NowcoderEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/newcoder_coding/nowcoder/editor/cn/NC309knapsack.go">
           <value>
             <NowcoderEditor>
