@@ -1,0 +1,2 @@
+<div>  <span>给定两个字符串str1和str2,输出两个字符串的最长公共子串</span>  </div> <div>  <span>题目保证<span>str1和str2的</span>最长公共子串存在且唯一。 </span> </div> <div>  <span><br> </span> </div> <div>  <span>数据范围： <img src="https://www.nowcoder.com/equation?tex=1%20%5Cle%20%7Cstr1%7C%2C%7Cstr2%7C%20%5Cle%205000%20"><br> 要求： 空间复杂度 <img src="https://www.nowcoder.com/equation?tex=O(n%5E2)">，时间复杂度 <img src="https://www.nowcoder.com/equation?tex=O(n%5E2)"><br> </span> </div><div><br></div><div><div>Related Topics</div><div><li>动态规划</li></div></div><br>示例:<br>输入:"1AB2345CD","12345EF"<br>输出:"2345"
+<br>

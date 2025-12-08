@@ -10,7 +10,7 @@
 package nowcoder.editor.cn;  //根据实际修改
 //nowcoder submit region begin(Prohibit modification and deletion)
 package main
-import "fmt"
+//import "fmt"
 import . "nc_tools"
 /*
  * type ListNode struct{
@@ -28,10 +28,52 @@ import . "nc_tools"
 */
 func mergeKLists( lists []*ListNode ) *ListNode {
     // write code here
+    if  len(lists) == 0{
+        return nil
+    }
+    if len(lists)==1 {
+        return lists[0]
+    }
+    head:=lists[0]
+    var res *ListNode
+    for i:=1;i<len(lists);i++{
+        res = rerank(head,lists[i])
+        head = res
+    }
+    return head
+}
+
+//使用两两比较的方法，复用两个链表顺序合并
+func rerank(l1 *ListNode,l2 *ListNode) *ListNode{
+    if l1 == nil{
+        return l2
+    }
+    if l2==nil{
+        return l1
+    }
+    newHead:=&ListNode{}
+    cur:=newHead
+    cur1:=l1
+    cur2:=l2
+    for {
+        if cur1 == nil || cur2 == nil{
+            break
+        }
+        if cur1.Val<cur2.Val{
+            cur.Next = cur1
+            cur1 = cur1.Next
+        }else{
+            cur.Next = cur2
+            cur2 = cur2.Next
+        }
+        cur = cur.Next
+    }
+    if cur1 != nil{
+        cur.Next = cur1
+    }
+    if cur2 != nil{
+        cur.Next = cur2
+    }
+    return newHead.Next
 }
 //nowcoder submit region end(Prohibit modification and deletion)
-
-    public static void main(String[] args) {
-        BM5mergeKLists solution = new BM5mergeKLists();
-    }
-}

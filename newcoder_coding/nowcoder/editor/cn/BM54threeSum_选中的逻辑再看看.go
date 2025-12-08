@@ -9,16 +9,24 @@
 示例:
 输入:[0]
 输出:[]
-[-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6]
+
 */
 package nowcoder
 
 import "sort"
 
+.editor.cn; //根据实际修改
+
+
+import (
+"sort"
+"strconv")
+
 //nowcoder submit region begin(Prohibit modification and deletion)
 package main
-//import "fmt"
-import "sort"
+import (
+    "sort"
+    "strconv")
 
 /**
  * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
@@ -29,12 +37,44 @@ import "sort"
 */
 func threeSum( num []int ) [][]int {
     // write code here
-    //先排序从小到大
-    if len(num) < 3 {
+
+    if len(num) <3{
         return nil
     }
+
     sort.Ints(num)
 
+
+    result:=make([][]int,0)
+    m:=map[string]struct{}{}
+    for i:=0;i<len(num)-2;i++{
+        l:=i+1
+        r:=len(num)-1
+        for l<r{
+            if num[i]+num[l]+num[r]<0{
+                l++
+                continue
+            }
+            if num[i]+num[l]+num[r]==0{
+                //去重
+                temp:=[]int{num[i],num[l],num[r]}
+                sort.Ints(temp)
+                str:=strconv.Itoa(temp[0])+"_"+strconv.Itoa(temp[1])+"_"+strconv.Itoa(temp[2])
+                _,ok:=m[str]
+                if !ok{
+                    m[str] = struct{}{}
+                    result = append(result, []int{num[i],num[l],num[r]})
+                }
+                //这里注意
+                l++
+                r--
+            }
+            if num[i]+num[l]+num[r] > 0{
+                r--
+            }
+        }
+    }
+    return result
 
 }
 //nowcoder submit region end(Prohibit modification and deletion)
