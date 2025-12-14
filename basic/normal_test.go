@@ -35,7 +35,7 @@ func IsValid(s string) bool {
 			continue
 		}
 		//右括号检查匹配
-		matched := matchAndRmLastLeft(currentS)
+		matched := MatchAndRmLastLeft(currentS)
 		if !matched {
 			return false
 		}
@@ -47,7 +47,7 @@ func IsValid(s string) bool {
 	return true
 }
 
-func matchAndRmLastLeft(right string) bool {
+func MatchAndRmLastLeft(right string) bool {
 	//从leftArr中找到匹配的左括号，则返回true,并移除该左括号
 	if len(leftArr) == 0 {
 		return false
