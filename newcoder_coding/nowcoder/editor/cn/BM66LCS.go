@@ -12,7 +12,7 @@
 package nowcoder.editor.cn;  //根据实际修改
 //nowcoder submit region begin(Prohibit modification and deletion)
 package main
-import "fmt"
+//import "fmt"
 
 /**
  * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
@@ -22,12 +22,37 @@ import "fmt"
  * @param str2 string字符串 the string
  * @return string字符串
 */
+//第二次画图做上来了
 func LCS( str1 string ,  str2 string ) string {
     // write code here
+    if str1 == "" || str2 == ""{
+        return ""
+    }
+
+    dp:=make([][]int, len(str1)+1)
+    for i:=range dp{
+        dp[i] = make([]int,len(str2)+1)
+    }
+
+    //记录最大长度和最后一个index
+    maxL:=0
+    var lastI int
+
+    for i:=1;i<=len(str1);i++{
+        for j:=1;j<=len(str2);j++{
+            if str1[i-1] == str2[j-1]{
+                dp[i][j] = dp[i-1][j-1]+1
+                if dp[i][j] > maxL{
+                    maxL = dp[i][j]
+                    lastI = i-1
+                }
+            }
+        }
+    }
+    if maxL==0{
+        return ""
+    }
+    startI:=lastI-maxL+1
+    return str1[startI:lastI+1]
 }
 //nowcoder submit region end(Prohibit modification and deletion)
-
-    public static void main(String[] args) {
-        BM66LCS solution = new BM66LCS();
-    }
-}

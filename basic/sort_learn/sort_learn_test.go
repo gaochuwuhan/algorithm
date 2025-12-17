@@ -41,9 +41,9 @@ func TestInsertion(t *testing.T) {
 
 func TestGuiBing(t *testing.T) {
 	nums := []int{
-		3, 2, 4, 7, 8, 1, 99, 0, 4,
+		3, 2, 4, 7, 8, 1, 99, 99, 999,
 	}
-	res := GuiBing(nums)
+	res := quickSort(nums)
 	fmt.Println(res)
 	ok := reflect.DeepEqual(res, []int{0, 1, 2, 3, 4, 4, 7, 8, 99})
 	assert.True(t, ok)
