@@ -1,0 +1,3 @@
+<p>  有一个整数数组，请你根据快速排序的思路，找出数组中第 k 大的数。 </p> <div>  给定一个整数数组 a ,同时给定它的大小n和要找的 k ，请返回第 k 大的数(包括重复的元素，不用去重)，保证答案存在。 </div> <div>  要求：时间复杂度 <img src="https://www.nowcoder.com/equation?tex=O(nlogn)">，空间复杂度 <img src="https://www.nowcoder.com/equation?tex=O(1)">  </div> <div>  数据范围：<img src="https://www.nowcoder.com/equation?tex=0%5Cle%20%20n%20%5Cle%201000">， <img src="https://www.nowcoder.com/equation?tex=1%20%5Cle%20K%20%5Cle%20n">，数组中每个元素满足 <img src="https://www.nowcoder.com/equation?tex=0%20%5Cle%20val%20%5Cle%2010000000">  </div><div><br></div><div><div>Related Topics</div><div><li>堆</li><li>分治</li></div></div><br>示例:<br>输入:[1,3,5,2,2],5,3
+<br>输出:2
+<br>

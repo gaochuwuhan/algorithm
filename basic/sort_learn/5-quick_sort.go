@@ -22,7 +22,7 @@ func partition(nums []int, l, r int) int {
 		}
 		nums[i], nums[j] = nums[j], nums[i]
 	}
-	//此时i=j
+	//此时i=j，交换位置，此时小于baseI的都在基准值左边，大于的都在右边
 	nums[baseI], nums[i] = nums[i], nums[baseI]
 	return i
 }
@@ -33,5 +33,5 @@ func rank(nums []int, l, r int) {
 	}
 	mid := partition(nums, l, r)
 	rank(nums, l, mid-1) //mid不再需要参与排序
-	rank(nums, mid+1, r)
+	rank(nums, mid+1, r) //mid不再需要参与排序
 }
