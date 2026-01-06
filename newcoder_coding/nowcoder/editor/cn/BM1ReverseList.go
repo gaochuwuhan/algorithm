@@ -29,19 +29,17 @@ import . "nc_tools"
 */
 func ReverseList( head *ListNode ) *ListNode {
     // write code here
-    if head == nil{
-        return nil
+    if head==nil || head.Next==nil{
+        return head
     }
-    var pre *ListNode
     cur:=head
+    var pre *ListNode
     for cur!=nil{
-        next:=cur.Next
+        nxt:=cur.Next
         cur.Next=pre
-        pre = cur
-        cur=next
+        pre=cur
+        cur=nxt
     }
     return pre
-
-
 }
 //nowcoder submit region end(Prohibit modification and deletion)
