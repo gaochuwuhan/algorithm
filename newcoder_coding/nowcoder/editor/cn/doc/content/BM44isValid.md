@@ -1,0 +1,21 @@
+<div>
+	<img src="https://www.nowcoder.com/equation?tex=%5Chspace%7B15pt%7D" alt="\hspace{15pt}" style="text-wrap-mode:wrap;" />给出一个仅包含字符<span><span style="text-wrap-mode:wrap;">仅由括号字符&nbsp;</span><img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7B%60%5B'%7D" alt="\texttt{`['}" style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">、</span><img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7B%60%5D'%7D" alt="\texttt{`]'}" style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">、</span><img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7B%60('%7D" alt="\texttt{`('}" style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">、</span><img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7B%60)'%7D" alt="\texttt{`)'}" style="text-wrap-mode:wrap;" />、<img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7B%60%5C%7B'%7D" alt="\texttt{`\{'}" /><span style="text-wrap-mode:wrap;">、</span><img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7B%60%5C%7D'%7D" alt="\texttt{`\}'}" /><span style="text-wrap-mode:wrap;">&nbsp;</span></span>的括号序列字符串 <img src="https://www.nowcoder.com/equation?tex=s" alt="s" />（<img src="https://www.nowcoder.com/equation?tex=0%20%5Cleqq%20%7Cs%7C%20%5Cleqq%2010%5E4" alt="0 \leqq |s| \leqq 10^4" />），你需要判断给出的<span style="text-wrap-mode:wrap;">括号序列字符串</span><span style="text-wrap-mode:wrap;">&nbsp;</span><img src="https://www.nowcoder.com/equation?tex=s" alt="s" style="text-wrap-mode:wrap;" />&nbsp;是否是有效的括号序列。<br />
+</div>
+<div>
+	<br />
+</div>
+<div>
+	<span style="text-wrap-mode:wrap;"><img src="https://www.nowcoder.com/equation?tex=%5Chspace%7B15pt%7D" alt="\hspace{15pt}" style="text-wrap-mode:wrap;" />有效括号序列的定义如下：</span><br style="text-wrap-mode:wrap;" />
+<img src="https://www.nowcoder.com/equation?tex=%5Chspace%7B23pt%7D%5Cbullet%5C%2C" alt="\hspace{23pt}\bullet\," style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">空序列是有效括号序列；</span><br style="text-wrap-mode:wrap;" />
+<img src="https://www.nowcoder.com/equation?tex=%5Chspace%7B23pt%7D%5Cbullet%5C%2C" alt="\hspace{23pt}\bullet\," style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">如果&nbsp;</span><img src="https://www.nowcoder.com/equation?tex=A" alt="A" style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">&nbsp;是有效括号序列，则 <img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7B(A)%7D" alt="\texttt{(A)}" />、<img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7B%5BA%5D%7D" alt="\texttt{[A]}" /> 和 <img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7B%7BA%7D%7D" alt="\texttt{{A}}" /> 都是有效括号序列；</span><br style="text-wrap-mode:wrap;" />
+<img src="https://www.nowcoder.com/equation?tex=%5Chspace%7B23pt%7D%5Cbullet%5C%2C" alt="\hspace{23pt}\bullet\," style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">如果&nbsp;</span><img src="https://www.nowcoder.com/equation?tex=A" alt="A" style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">&nbsp;和&nbsp;</span><img src="https://www.nowcoder.com/equation?tex=B" alt="B" style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">&nbsp;都是有效括号序列，则它们的拼接&nbsp;</span><img src="https://www.nowcoder.com/equation?tex=AB" alt="AB" style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">&nbsp;也是有效括号序列。</span> 
+</div>
+<div>
+	<span style="text-wrap-mode:wrap;"><br />
+</span> 
+</div>
+<div>
+	<span style="text-wrap-mode:wrap;"><img src="https://www.nowcoder.com/equation?tex=%5Chspace%7B15pt%7D" alt="\hspace{15pt}" style="text-wrap-mode:wrap;" />如果<span style="text-wrap-mode:wrap;">括号序列字符串</span><span style="text-wrap-mode:wrap;">&nbsp;</span><img src="https://www.nowcoder.com/equation?tex=s" alt="s" style="text-wrap-mode:wrap;" /><span style="text-wrap-mode:wrap;">&nbsp;是</span><span style="text-wrap-mode:wrap;">有效</span><span style="text-wrap-mode:wrap;">的括号序列，返回一个布尔值&nbsp;<img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7Btrue%7D" alt="\texttt{true}" />；否则返回一个布尔值<span style="text-wrap-mode:wrap;">&nbsp;</span><img src="https://www.nowcoder.com/equation?tex=%5Ctexttt%7Bfalse%7D" alt="\texttt{false}" />。</span><br />
+</span> 
+</div><div><br></div><div><div>Related Topics</div><div><li>栈</li><li>字符串</li></div></div><br>示例:<br>输入:"["<br>输出:false
+<br>

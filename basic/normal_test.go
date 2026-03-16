@@ -1,6 +1,7 @@
 package basic
 
 import (
+	"fmt"
 	"github.com/stretchr/testify/assert"
 	"slices"
 	"testing"
@@ -65,4 +66,9 @@ func TestIsValid(t *testing.T) {
 	input := "([])"
 	res := IsValid(input)
 	assert.True(t, res)
+}
+
+func TestU(t *testing.T) {
+	data := []int{1}
+	fmt.Println(data[1:1])
 }
